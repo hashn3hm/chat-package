@@ -1,0 +1,25 @@
+{
+    "name": "hasicode/chats",
+    "description": "A package for Laravel PHP Framework to add a complete real-time chat system.",
+    "type": "library",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Hasicode\\Chats\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "harrykevin",
+            "email": "muhammad.hassan@jumppace.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hasicode\\Chats\\Providers\\ChatServiceProvider"
+            ]
+        }
+    }
+}
